@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.containers{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/935156fb-9579-4fc2-ad94-70680402b8ef/891f9fb4-7a31-450b-9949-79bd8612fcb3/NG-en-20230109-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background: rgba(0, 0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.first-sec{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+
+
+}
+.left{
+    color: rgb(216, 18, 18);
+    font-style: oblique;
+    padding-left: 40px;
+}
+.right{
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 3px;
+    background-color: red;
+    margin-right: 40px;
+    
+}
+.right a{
+    text-decoration: none;
+    color: white;
+}
+.centre{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 150px;
+    color: white;
+}
+.text-sec h1{
+    font-size: 60px;
+}
+
+.text-sec h4{
+    font-size: 40px;
+}
+.search-box h5{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+input{
+    height: 60px;
+    width: 450px;
+}
+.link-get{
+    padding: 20px 50px 22px 50px;
+    color: white;
+    background-color: red;
+    margin-left: -4px;
+}
+.search-box{
+    padding-top: 30px;
+    outline: none;
+    border: none;
+}
+.search-box :focus{
+    outline: none;
+}
+.line-through{
+    height: 8px;
+    width: 100%;
+    background-color: #5e5d5d77;
+}
+.sec-container{
+    background-color: black;
+    color: white;
+}
+.sec-one{
+
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.enjoy-sec{
+    padding-top: 120px;
+    
+
+}
+.enjoy-sec h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.enjoy-sec h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 10px;
+}
+.enjoy-img img{
+    height: 400px;
+    max-width: 100%;
+}
+.sec-two{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.down-load-img img{
+height: auto;
+max-width: 100%;
+}
+.sec-three{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.four-sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* FAQ-SECTION*/
+
+
+.freq-sec{
+   
+    align-items: center;
+    
+}
+.freq-sec h1{
+    font-size: 3.125rem;
+   text-align: center;
+}
+.que-tittle svg{
+    height: 30px;
+    width: 30px;
+    right: 20px;
+    top: 20px;
+    position: absolute;
+
+}
+.que-tittle svg ::before, .que-tittle svg::after{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 3px;
+    background: #fff;
+    top: -1.5px;
+}
+.card-display-sec{
+    max-width: 635px;
+    margin: 0 auto;
+}
+.card-display{
+    background-color: #303030;
+    position: relative;
+}
+.que-tittle{
+    padding: 20px 30px;
+    border: 3px solid black;
+    cursor: pointer;
+
+}
+.box-txt{
+    text-align: center;
+}
+.search-box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(121, 114, 114);
+    list-style: none;
+}
+footer a :hover{
+text-decoration: underline;
+}
+.footer-sec{
+    display: flex;
+    justify-content: center;
+    padding: 20px 30px 30px 20px;
+    text-decoration: none;
+    
+
+}
